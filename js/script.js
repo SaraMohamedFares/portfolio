@@ -350,7 +350,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// Performance optimization: Lazy load images when you add them
 function lazyLoadImages() {
     const images = document.querySelectorAll('img[data-src]');
     
