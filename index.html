@@ -1,194 +1,335 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>بورتفوليو | مصعب محمد سيد</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <!-- ناف بار -->
-    <nav class="nav">
-      <div class="container nav-inner">
-        <div class="brand">
-          <span class="logo" aria-hidden="true"></span>
-          <span>مصعب محمد سيد</span>
-        </div>
-        <div class="nav-links">
-          <a href="#about">عنّي</a>
-          <a href="#projects">المشاريع</a>
-          <a href="#skills">المهارات</a>
-          <a href="#contact">تواصل</a>
-        </div>
-        <a class="cta-btn" href="#contact">توظيفي</a>
-      </div>
-    </nav>
-
-    <!-- هيرو -->
-    <header class="hero">
-      <div class="container hero-grid">
-        <div>
-          <h1>مطور تطبيقات Flutter</h1>
-          <p>
-            أنا <b>مصعب محمد سيد</b> مطور تطبيقات موبايل بخبرة في
-            <b>Flutter</b> و<b>Dart</b> وبدرس هندسة الحاسبات والنظم بجامعة حلوان
-            (تخصص: الأمن السيبراني).
-          </p>
-          <div class="chip-row">
-            <span class="chip">#Flutter</span>
-            <span class="chip">#Dart</span>
-            <span class="chip">#MobileDev</span>
-            <span class="chip">#Cybersecurity</span>
-          </div>
-          <div class="actions">
-            <a class="btn primary" href="#projects">شوف مشاريعي</a>
-            <a class="btn" href="#contact">راسلني</a>
-            <a class="btn" href="cv.pdf" download>حمّل السيرة الذاتية</a>
-          </div>
-        </div>
-        <div>
-          <div
-            class="card"
-            style="
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              padding: 20px;
-            "
-          >
-            <div class="avatar">
-              <img
-                src="https://avatars.githubusercontent.com/u/1?v=4"
-                alt="صورة شخصية"
-              />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara Fares | Mobile App Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>Sara Fares · Mobile App Developer</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
+        </nav>
     </header>
 
-    <main class="container">
-      <!-- المهارات -->
-      <section id="skills">
-        <div class="section-head">
-          <h2>المهارات</h2>
-          <span class="muted">أدواتي وتقنياتي</span>
-        </div>
-        <div class="skills">
-          <div class="skill"><b>Dart</b><small>OOP</small></div>
-          <div class="skill"><b>Flutter</b><small>UI/State</small></div>
-          <div class="skill"><b>Java</b><small>Swing</small></div>
-          <div class="skill"><b>Python</b><small>Scripting</small></div>
-          <div class="skill"><b>MySQL</b><small>Database</small></div>
-          <div class="skill"><b>C & C++</b><small>Data Structure</small></div>
-        </div>
-      </section>
-
-      <!-- المشاريع -->
-      <section id="projects">
-        <div class="section-head">
-          <h2>المشاريع</h2>
-        </div>
-        <div class="projects">
-          <article class="project card">
-            <div class="content">
-              <h3>Restaurant App</h3>
-              <p class="muted">
-                تطبيق مطعم يسمح للمستخدمين بتصفح القوائم وطلب الطعام.
-              </p>
-              <div class="tags">
-                <span class="tag">Flutter</span>
-                <span class="tag">Dart</span>
-                <span class="tag">Hive</span>
-              </div>
-              <a
-                href="https://github.com/MosabMohamed0/Foodgo.git"
-                target="_blank"
-                >🔗 GitHub</a
-              >
+    <!-- Home Section -->
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Cross-Platform Mobile App Developer </h2>
+                    <h2 class="profession">Flutter • Firebase</h2>
+                    <p class="hero-description">
+                        Passionate about creating innovative mobile applications that provide 
+                        exceptional user experiences. I specialize in building robust and 
+                        user-friendly mobile solutions.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/SaraMohamedFares" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sara-fares-379a22282" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:sm4649641@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/sara.jpg" alt="Sara Fares">
+                </div>
             </div>
-          </article>
-          <article class="project card">
-            <div class="content">
-              <h3>LinkedIn Simulation</h3>
-              <p class="muted">محاكاة لتطبيق LinkedIn بملفات شخصية ووظائف.</p>
-              <div class="tags">
-                <span class="tag">Flutter</span>
-                <span class="tag">Dart</span>
-              </div>
-              <a
-                href="https://github.com/MosabMohamed0/LinkedIn-App-Simulation.git"
-                target="_blank"
-                >🔗 GitHub</a
-              >
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I'm a dedicated Mobile App Developer with a passion for creating 
+                            innovative and user-friendly mobile applications. My expertise spans 
+                            across various mobile development technologies and frameworks.
+                        </p>
+                        <p>
+                            I enjoy solving complex problems and turning ideas into functional 
+                            mobile applications that users love. My approach combines technical 
+                            excellence with creative design thinking to deliver outstanding 
+                            mobile experiences.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <h3>3+</h3>
+                                <p>Projects Completed</p>
+                            </div>
+                            <div class="stat">
+                                <h3>100%</h3>
+                                <p>Client Satisfaction</p>
+                            </div>
+                            <div class="stat">
+                                <h3>2+</h3>
+                                <p>Years Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </article>
-        </div>
-      </section>
+        </section>
 
-      <!-- تواصل -->
-      <section id="contact">
-        <div class="section-head">
-          <h2>تواصل معي</h2>
-        </div>
-        <div class="contact">
-          <div class="card">
-            <h3>معلومات التواصل</h3>
-            <ul
-              style="
-                list-style: none;
-                padding: 0;
-                margin: 0;
-                display: grid;
-                gap: 8px;
-              "
-            >
-              <li>📧 mosabthezaafan@gmail.com</li>
-              <li>📱 01156080813</li>
-              <li>
-                🔗
-                <a href="https://github.com/MosabMohamed0" target="_blank"
-                  >GitHub</a
-                >
-              </li>
-              <li>
-                💼
-                <a
-                  href="https://www.linkedin.com/in/mosab-mohamed-551b0724b/"
-                  target="_blank"
-                  >LinkedIn</a
-                >
-              </li>
-              <li>📍 حلوان، القاهرة</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Mobile Development</h3>
+                        <div class="skill-items">
+                            <span class="skill-tag">React Native</span>
+                            <span class="skill-tag">Flutter</span>
+                            <span class="skill-tag">Swift</span>
+                            <span class="skill-tag">Kotlin</span>
+                            <span class="skill-tag">Java</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-items">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">TypeScript</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend & Database</h3>
+                        <div class="skill-items">
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Firebase</span>
+                            <span class="skill-tag">SQLite</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">REST APIs</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Others</h3>
+                        <div class="skill-items">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Xcode</span>
+                            <span class="skill-tag">Android Studio</span>
+                            <span class="skill-tag">Figma</span>
+                            <span class="skill-tag">App Store Deploy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-      <footer class="container">
-        <div
-          style="
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-          "
-        >
-          <small>© <span id="year"></span> مصعب محمد سيد</small>
-          <small class="muted">مطور ب Flutter 💙</small>
-        </div>
-      </footer>
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fab fa-instagram project-icon"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Instagram App Simulation</h3>
+                            <p>
+                                A complete mobile application simulating Instagram's core features 
+                                including photo sharing, stories, messaging, and social interactions. 
+                                Built with modern mobile development practices.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React Native</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-calculator project-icon"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>BMI Calculator</h3>
+                            <p>
+                                A comprehensive BMI (Body Mass Index) calculator mobile app with 
+                                health recommendations, progress tracking, and personalized insights 
+                                for maintaining a healthy lifestyle.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Flutter</span>
+                                <span class="tech-tag">Dart</span>
+                                <span class="tech-tag">SQLite</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-chart-line project-icon"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Expense Tracker</h3>
+                            <p>
+                                A feature-rich expense tracking mobile application that helps users 
+                                manage their finances, categorize expenses, set budgets, and 
+                                generate detailed financial reports.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React Native</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's Work Together</h3>
+                        <p>
+                            I'm always interested in new opportunities and exciting projects. 
+                            Whether you have a project in mind or just want to chat about 
+                            mobile app development, feel free to reach out!
+                        </p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>sm4649641@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-linkedin"></i>
+                                <div>
+                                    <h4>LinkedIn</h4>
+                                    <p>sara-fares-379a22282</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-github"></i>
+                                <div>
+                                    <h4>GitHub</h4>
+                                    <p>SaraMohamedFares</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message" id="name-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="email-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                                <span class="error-message" id="message-error"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                        <div id="form-success" class="success-message" style="display: none;">
+                            <i class="fas fa-check-circle"></i>
+                            <p>Thank you! Your message has been sent successfully.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
-  </body>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Sara Fares. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/SaraMohamedFares" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sara-fares-379a22282" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:sm4649641@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
 </html>
