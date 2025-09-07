@@ -83,7 +83,7 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// اختار كل الصور في المشاريع
+//  اختار كل الصور في المشاريع
 const projectImages = document.querySelectorAll('.project-image img');
 const modal = document.getElementById('imageModal');
 const modalImg = document.getElementById('modalImage');
