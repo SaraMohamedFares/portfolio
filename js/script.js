@@ -71,7 +71,7 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Header background on scroll
+// Header background on scroll 
 window.addEventListener('scroll', () => {
     const header = document.querySelector('header');
     if (window.scrollY > 100) {
