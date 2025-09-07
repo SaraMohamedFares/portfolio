@@ -75,13 +75,32 @@ window.addEventListener('scroll', () => {
 window.addEventListener('scroll', () => {
     const header = document.querySelector('header');
     if (window.scrollY > 100) {
-        header.style.background = 'rgba(255, 255, 255, 0.98)';
+        header.style.background = 'linear-gradient(135deg, #11833b 0%, #114f29 50%, #181f2a 100%)';
         header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
     } else {
-        header.style.background = 'rgba(255, 255, 255, 0.95)';
+        header.style.background = 'linear-gradient(135deg, #11833b 0%, #114f29 50%, #181f2a 100%)';
         header.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
     }
 });
+
+// اختار كل الصور في المشاريع
+const projectImages = document.querySelectorAll('.project-image img');
+const modal = document.getElementById('imageModal');
+const modalImg = document.getElementById('modalImage');
+const closeBtn = document.querySelector('.close');
+
+projectImages.forEach(img => {
+  img.addEventListener('click', () => {
+    modal.style.display = 'block';
+    modalImg.src = img.src;
+  });
+});
+
+// إغلاق النافذة
+closeBtn.addEventListener('click', () => {
+  modal.style.display = 'none';
+});
+
 
 // Contact Form Handling
 const contactForm = document.getElementById('contact-form');
@@ -226,23 +245,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Typing effect for profession text
 function typeWriter() {
-    const profession = document.querySelector('.profession');
-    if (!profession) return;
+    const cross = document.querySelector('.cross');
+    if (!cross) return;
     
-    const text = 'Mobile App Developer';
+    const text = 'Cross-Platform Mobile App Developer';
     const speed = 100;
     let i = 0;
     
-    profession.textContent = '';
+    cross.textContent = '';
     
     function type() {
         if (i < text.length) {
-            profession.textContent += text.charAt(i);
+            cross.textContent += text.charAt(i);
             i++;
             setTimeout(type, speed);
         } else {
             // Add blinking cursor
-            profession.innerHTML += '<span class="cursor">|</span>';
+            cross.innerHTML += '<span class="cursor">|</span>';
             
             // Add CSS for cursor animation
             const style = document.createElement('style');

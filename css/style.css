@@ -27,14 +27,14 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.95);
+    background:linear-gradient(135deg, #11833b 0%, #114f29 50%, #181f2a 100%);
     backdrop-filter: blur(10px);
     z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
 
 .navbar {
-    padding: 1rem 0;
+    padding: 1.5rem 0;
 }
 
 .nav-container {
@@ -47,7 +47,7 @@ header {
 }
 
 .logo h2 {
-    color: #22c55e;
+    color:#ffffff;
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -55,12 +55,12 @@ header {
 .nav-menu {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 .nav-link {
     text-decoration: none;
-    color: #1f2937;
+    color: #ffffff;
     font-weight: 500;
     transition: color 0.3s ease;
 }
@@ -120,7 +120,7 @@ header {
 }
 
 .hero-description {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     margin-bottom: 2rem;
     color: #e5e7eb;
     line-height: 1.8;
@@ -230,7 +230,7 @@ header {
 
 /* About Section */
 .about {
-    padding: 80px 0;
+    padding: 40px 0;
     background-color: #f8fafc;
 }
 
@@ -270,23 +270,23 @@ header {
 .about-stats {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 5rem;
     margin-top: 3rem;
-    max-width: 600px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .stat {
     text-align: center;
-    padding: 1.5rem;
+    padding: 1.3rem;
     background: white;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .stat h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #16a34a;
     margin-bottom: 0.5rem;
     font-weight: 700;
@@ -296,6 +296,7 @@ header {
     color: #6b7280;
     font-weight: 500;
 }
+
 
 /* Skills Section */
 .skills {
@@ -379,18 +380,75 @@ header {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
-.project-image {
-    height: 200px;
-    background: linear-gradient(135deg, #16a34a 0%, #166534 50%, #1f2937 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* ترتيب الكروت جنب بعض */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
-.project-icon {
-    font-size: 4rem;
-    color: white;
+.project-card {
+  flex: 1 1 calc(50% - 20px);
+  max-width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
 }
+
+/* الصور */
+.project-image {
+  overflow: hidden;
+}
+
+.project-image img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 1px solid #e5e7eb;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+/* تأثير التكبير عند Hover */
+.project-image:hover img {
+  transform: scale(1.08);
+}
+
+/* النافذة المنبثقة */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  display: block;
+  margin: 5% auto;
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
 
 .project-content {
     padding: 1.5rem;
@@ -556,7 +614,7 @@ header {
 
 /* Footer */
 .footer {
-    background-color: #1f2937;
+    background:linear-gradient(135deg, #11833b 0%, #114f29 50%, #181f2a 100%);
     color: white;
     padding: 2rem 0;
 }
