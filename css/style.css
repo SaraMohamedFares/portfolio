@@ -527,7 +527,7 @@ header {
 }
 
 .contact-details {
-    space-y: 1.5rem;
+    appearance: 1.5rem;
 }
 
 .contact-item {
