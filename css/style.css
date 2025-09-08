@@ -645,6 +645,7 @@ header {
 @media (max-width: 768px) {
     .hamburger {
         display: flex;
+        background-color: white;
     }
 
     .nav-menu {
@@ -652,7 +653,7 @@ header {
         left: -100%;
         top: 70px;
         flex-direction: column;
-        background-color: white;
+        background:linear-gradient(135deg, #11833b 0%, #114f29 50%, #181f2a 100%);
         width: 100%;
         text-align: center;
         transition: 0.3s;
