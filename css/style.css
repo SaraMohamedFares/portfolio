@@ -501,6 +501,128 @@ header {
     color: #15803d;
 }
 
+.Instagram{
+     display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #16a34a;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.Instagram:hover {
+    color: #0f5c2b;
+}
+
+.DIO{
+     display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #16a34a;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.DIO:hover {
+    color: #0f5c2b;
+}
+
+.Cubit{
+     display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #16a34a;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.Cubit:hover {
+    color: #0f5c2b;
+}
+
+.BMI{
+     display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #16a34a;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.BMI:hover {
+    color: #0f5c2b;
+}
+
+.Hotel{
+     display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #16a34a;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.Hotel:hover {
+    color: #0f5c2b;
+}
+
+
+/* Services Section */
+.services {
+      padding: 50px 20px;
+      text-align: center;
+      background: #fff;
+    }
+
+    .services h2 {
+      font-size: 28px;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .service-container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .service {
+      background: #f1f1f1;
+      border-radius: 12px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .service:hover {
+      transform: translateY(-5px);
+    }
+
+    .service i {
+      font-size: 40px;
+      margin-bottom: 15px;
+      color: #28a745;
+    }
+
+    .service h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .service p {
+      font-size: 14px;
+      color: #666;
+    }
+
+
 /* Contact Section */
 .contact {
     padding: 80px 0;
